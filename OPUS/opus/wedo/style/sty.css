@@ -1,0 +1,61 @@
+*{margin:0px;
+  padding:0px;}
+a{text-decoration:none;}
+body{background:#FF99FF;}
+img{border:0px;}
+#wrap{background:url("img/bg.jpg") no-repeat;
+      margin:0 auto;
+	  width:1024px;
+	  height:1200px;
+	 }
+#top{width:1024px;
+     height:150px;
+	 border:solid 1px transparent;}
+#logo{display:block;
+      margin-left:130px;
+      margin-top:45px;
+      width:257px;
+      height:96px;}
+#nav{width:1024px;
+     height:200px;
+	 position:absolute;
+	 top:150px;}
+#nav div{width:150px;
+         height:130px;
+		 float:left;
+		 margin-left:35px;}
+.nav1{background:url(img/shouye.png);}
+.nav2{background:url(img/chengyuan.png);}
+.nav3{background:url(img/zuopin.png);}
+.nav4{background:url(img/lianxi.png);}
+.nav5{background:url(img/liuyan.png);}
+
+#nav a div.nav1:hover{background:url(img/shouye-hover.png);}
+#nav a div.nav2:hover{background:url(img/chengyuan-hover.png);}
+#nav a div.nav3:hover{background:url(img/zuopin-hover.png);}
+#nav a div.nav4:hover{background:url(img/lianxi-hover.png);}
+#nav a div.nav5:hover{background:url(img/liuyan-hover.png);}
+
+
+
+
+#mid{
+     position:absolute;
+	 top:300px;
+     height:702px;
+	 width:1024px;
+	 background:url(img/book.png);
+	 }
+#note{background:url(img/note.png) no-repeat;
+      position:relative;
+	  top:150px;
+	  left:780px;
+	  width:212px;
+	  height:296px;
+             }
+#bottom{
+        background:url(img/pen.png) no-repeat center;
+        position:absolute;
+		top:650px;
+		height:100px;
+		width:1024px;}

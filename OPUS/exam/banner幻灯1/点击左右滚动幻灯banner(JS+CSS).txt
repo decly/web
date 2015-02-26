@@ -1,0 +1,44 @@
+点击左右滚动幻灯banner(JS+CSS),可以点击左右滚动，亦可自动滚动
+结构良好，内容层清晰明了，可以添加任意内容，图片、文字、flash等等。
+
+兼容IE6/IE7/火狐/谷歌。
+
+可定制性非常强，聪明的你完全可以方便的定制出你想要的效果。
+
+代码片段：
+<div id="container">
+<div id="slider">
+	<div class="sliderItem" id="slide1">
+		<h2>这里可以书写你想要的文字</h2>
+		<img src="images/slider_item1.png" alt="" />
+	</div><!-- /sliderItem -->
+				
+	<div class="sliderItem" id="slide2"style="display:none">
+		<h2>这里可以书写你想要的文字</h2>
+		<img src="images/slider_item2.png" alt="" />
+	</div><!-- /sliderItem -->
+		
+	<div class="sliderItem" id="slide3" style="display:none">
+		<h2>这里可以书写你想要的文字</h2>
+		<img src="images/slider_item3.png" alt="" />
+	</div><!-- /sliderItem -->
+        
+	<div class="sliderItem" id="slide4" style="display:none">
+		<h2>这里可以书写你想要的文字</h2>
+		<img src="images/slider_item4.png" alt="" />
+	</div><!-- /sliderItem -->
+	
+</div><!-- /slider -->
+
+<div id="sliderNav"> 
+    <div class="sliderNav_left">
+	<a href="#" class="previous">Previous</a>
+	<ul></ul>
+	<a href="#" class="next">Next</a>
+    </div>      
+</div>
+    
+</div>
+
+
+

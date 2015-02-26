@@ -1,0 +1,194 @@
+*{margin:0;padding:0;}
+a{text-decoration:none;
+  color:#000;}
+img{border:none;}
+
+#wrap{width:960px;
+	  margin:0 auto;
+	  font-size:12px;
+	  color:#000000;}
+
+#header{width:960px;
+		height:100px;
+		background:url(img/header_bg.jpg) repeat-y top left;}
+#header #button_top{margin-left:785px;
+					padding-top:10px;
+					}
+#header #button_top a{text-decoration:underline;}
+#header #button_top img{margin-bottom:-4px;
+						margin-left:2px;}
+#logo{float:left;
+	  width:282px;
+	  height:58px;
+	  background:url(img/logo.gif);
+	  margin:20px 60px;
+	  _margin:20px 40px;}
+#logo a{display:block;}
+
+
+.search{width:140px;
+	    margin-left:365px;
+		margin-top:45px;}
+
+#nav{width:960px;
+	 height:35px;
+	 border-top:#FFF 1px solid;
+	 border-bottom:#CCCCCC 1px solid;
+	 _margin-bottom:-2px;
+	 background:url(img/nav.jpg) no-repeat;}
+
+#nav ul,li{list-style-type:none;
+		   padding:0;
+		   margin:0;}
+#nav .main_nav{padding:0;
+			   margin-left:0px;}
+#nav .main_nav a{display:block;
+				 line-height:35px;
+				 height:35px;
+				 text-align:center;
+				 padding-left:10px;
+				 overflow:hidden;}
+#nav .main_nav .navs{width:120px;
+					 height:35px;
+					 float:left;}
+*html .main_nav .navs{overflow:hidden;} /* only for ie6 */
+#nav .main_nav .navs .nav_a{color:#FFF;
+							font-size:15px;
+							font-weight:600;
+							text-decoration:none;}
+#nav .main_nav .navs .nav_a:hover{background:url(img/nav_hover.jpg);}
+#nav .main_nav .navs #nav_index{background:url(img/nav_hover.jpg) no-repeat left;}
+#nav .sub_nav{display:none;
+			  width:120px;
+			  position:relative;
+			  z-index:1000;
+			  opacity:0.8;
+			  filter:Alpha(opacity=80);}
+#nav .sub_nav li a {color:#000000;
+					text-decoration:none;}
+#nav .sub_nav li a:link, .sub_nav li a:visited{background:#A0BED5;}
+#nav .sub_nav li a:hover{color:#FFFFFF;
+						 background:#0077BB;}
+#nav .clear{clear:both;
+			height:1px;
+			line-height:1px;
+			font-size:1px;}
+
+#banner{width:960px;
+		height:260px;
+		text-align:left;
+		display:block;
+		margin:0 auto;
+		background-color:#bfd4f6;}
+
+
+#middle{width:960px; }
+
+#post{width:238px;
+      height:249px;
+	  float:left;
+	  background:#e0ecff;
+	  border-right:#dedbdb 2px solid;
+	  border-bottom:#dedbdb 1px solid;
+	  _border-right:none; }
+
+#post #title{width:240px;
+			 height:40px;
+			 background:url(img/post.jpg);}
+#post ul{margin:10px 35px;
+		 list-style-type:none;}
+#post li{margin-top:10px;
+		 background:url(img/news_bg.gif) no-repeat left;
+		 padding-left:14px;}
+#post #more_img{margin:10px 5px 0 140px;}
+#post #more_font{color:#FF0000;
+				 font-weight:600;}
+
+
+#ctt{width:720px;
+	 height:250px;
+     float:left;
+	 background:#f5f7fa;}
+#ctt ul{list-style-type:none; margin:0;}
+
+#ctt #tb_ ul{height:40px;
+			 padding-left:0px;}
+#ctt #tb_ li{float:left;
+			 font-size:14px;
+			 height:40px;
+			 line-height:2.8;
+			 width:120px;
+			 cursor:pointer;
+			 text-align:center;}
+
+#ctt #tb_  .normaltab{ color:#FFFFFF;
+					   background:url(img/bar_normaltab.jpg); 
+					   font-weight:bold;}
+#ctt #tb_ .hovertab{ background-color:#8da6db;background:url(img/bar_hovertab.jpg);
+					 font-weight:bold; }
+#ctt #tb_ ul a{color:#FFFFFF;} /*only for FireFox*/
+
+#ctt #content .dis{display:block; }
+#ctt #content .undis{display:none;}
+
+
+#content{height:170px;
+		 clear:both;}
+
+.content_oneleft{border-right:#999999 1px dashed;
+				 float:left;
+				 width:359px;}
+.content_oneleft img{margin:20px 50px;}
+.content_oneright{ width:360px;
+				  float:left;}
+.content_oneright ul{padding-top:20px;}
+.content_oneright li{margin-top:10px;
+					 margin-left:40px;
+					 background:url(img/attention.gif) no-repeat;
+					 padding-left:20px;}
+
+
+
+#cooperation{clear:both;
+			 width:960px;
+			 height:80px;
+			 background:#f5f9ff;
+			 border-top:1px solid #dbdbdb;
+			 border-bottom:3px solid #abbfe7;}
+
+#demo {overflow:hidden;
+	   width:930px;
+	   padding-top:10px;
+	   margin-left:15px;}
+#indemo {float: left;
+         width: 800%;
+		 }
+#demo1 {float: left;}
+#demo2 {float: left;
+		margin-left:5px;}
+
+
+#footer{margin:0;
+		width:960px;
+        height:50px;
+        margin-top:8px;
+		text-align:center;
+		}
+#tel{margin-left:350px;
+	 text-align:left;}
+#tel #tel1{float:left;
+		   width:150px;}
+
+#add{margin-top:5px;
+	 color:#FFF;
+	 background:#214081;
+	 padding-top:5px;}
+#add a{color:#FFF;}
+
+	  
+
+
+
+
+
+

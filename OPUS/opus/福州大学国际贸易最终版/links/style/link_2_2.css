@@ -1,0 +1,15 @@
+#teacher_table__{border:solid #999999 3px;
+				margin-top:30px;
+				margin-left:150px;}
+.info_teacher__{width:300px;
+				border:solid 1px #CCCCCC;
+				padding:5px 10px;}
+.img_teacher__{width:70px;
+			height:90px;
+			border:solid #CCCCCC 1px;}
+.teacher_info_more__{color:#0033CC;
+					float:right;
+					margin-top:8px;}
+.teacher_info_more__:hover{color:#FF0000;
+							text-decoration:underline;}
+							

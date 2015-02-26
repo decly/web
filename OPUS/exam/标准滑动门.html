@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>滑动门技术</title>
+
+<script type="text/javascript" language="javascript">
+//<!CDATA[
+function g(o){return document.getElementById(o);}
+//参数说明:n为标签编号,m为标签数量,q为标签名称的前缀，如id=tb_1中的"tb_",p为内容层的前缀,如id=tbc_01的"tbc_0"
+function HoverLi(n,m,q,p)
+{
+//m为标签数量 m=6
+//q为前缀  q=tb_
+//如果有N个标签,就将i<=N;
+//兼容IE7,FF,IE6
+
+	for(var i=1;i<=m;i++)
+	{
+	g(q +i).className='normaltab';
+	g(p+i).className='undis';
+	}
+g(p+n).className='dis';
+g(q+n).className='hovertab';
+}
+//如果要做成点击后再转到请将<li>中的onmouseover 改成 onclick;
+//]]>
+</script>
+
+<style media="screen" type="text/css">
+<!--
+*{font-size:12px;}
+html,body{margin:0;text-align:center;over-flow:hidden;height:100%;width:100%;}
+ul{list-style-type:none; margin:0;}
+
+/* 标准盒模型 */
+.ttl{height:18px;}
+.content{height:auto;padding:6px;clear:both;border:1px solid #064ca1;border-top:0;text-align:left;}
+.ctt{margin:20px 100px;clear:both;width:936px;/*这里调整整个滑动门的宽度*/}
+
+
+/* TAB 切换效果 */
+.tb_{background-image: url('images/barbg_tab.gif'); background-repeat: repeat-x;background-color: #E6F2FF;}
+.tb_ ul{height:24px;padding-left:0px;}
+.tb_ li{float:left;height: 24px;line-height:1.9;width: 94px;cursor:pointer;}
+
+/* 用于控制显示与隐藏的css类 */
+.normaltab   { background-image:url('images/normal_tab.gif'); background-repeat: no-repeat; color:#1F3A87 ;}
+.hovertab    { background-image: url('images/hover_tab.gif'); background-repeat: no-repeat; color:#1F3A87; font-weight:bold }
+.dis{display:block;}
+.undis{display:none;}
+-->
+</style>
+
+</head>
+
+<body>
+单个标签宽度为:94px;
+总宽度为:标签数*94px
+<div class="ctt">
+	<div id="tb_" class="tb_">
+		<ul>
+		<li id="tb_1" class="hovertab"  onmouseover="x:HoverLi(1,6,'tb_','tbc_0');">流行音乐</li>
+		<li id="tb_2" class="normaltab" onmouseover="i:HoverLi(2,6,'tb_','tbc_0');">美女写真</li>
+		<li id="tb_3" class="normaltab" onmouseover="a:HoverLi(3,6,'tb_','tbc_0');">平面设计</li>
+		<li id="tb_4" class="normaltab" onmouseover="o:HoverLi(4,6,'tb_','tbc_0');">网络学堂</li>
+		<li id="tb_5" class="normaltab" onmouseover="g:HoverLi(5,6,'tb_','tbc_0');">恋爱宝典</li>
+		<li id="tb_6" class="normaltab" onmouseover="z:HoverLi(6,6,'tb_','tbc_0');">Q小鸽子</li>
+		</ul>
+	</div>
+	
+	<div class="content">
+		<div class="dis" id="tbc_01">内容区域1</div>
+		<div class="undis" id="tbc_02">内容区域2</div>
+		<div class="undis" id="tbc_03">内容区域3</div>
+		<div class="undis" id="tbc_04">内容区域4</div>
+		<div class="undis" id="tbc_05">内容区域5</div>
+		<div class="undis" id="tbc_06">内容区域6</div>
+	</div>
+	
+</div>
+
+
+</body>
+</html>
+

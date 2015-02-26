@@ -1,0 +1,7 @@
+#text_online__ a{width:200px;
+				height:80px;
+				display:block;
+				background:url(img/text_online_bg__.jpg) no-repeat left;
+				margin-left:240px;
+				margin-top:50px;}
+#text_online__ a:hover{background:url(img/text_online_hover_bg__.jpg) no-repeat left;}

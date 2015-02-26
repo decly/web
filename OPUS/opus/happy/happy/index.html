@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh" lang="zh" dir="ltr">
+<head profile="http://www.w3.org/2000/08/w3c-synd/#">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Leo,HEnT Studio,LAMP,PHP,MySQL" />
+    <meta name="DEscription" content="HEnT Studio" />
+    <meta name="Author" content="hanke" />
+    <title>快乐坊</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="style/main.css" />
+    <link rel="stylesheet" type="text/css" href="style/pic_switch.css" />
+    <script type="text/javascript" src="js/jquery-1.2.6.pack.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script language="javascript"> 
+function correctPNG()  
+{ 
+for(var i=0; i<document.images.length; i++) 
+{ 
+  var img = document.images[i] 
+  var imgName = img.src.toUpperCase() 
+  if (imgName.substring(imgName.length-3, imgName.length) == "PNG") 
+  { 
+   var imgID = (img.id) ? "id='" + img.id + "' " : "" 
+   var imgClass = (img.className) ? "class='" + img.className + "' " : "" 
+   var imgTitle = (img.title) ? "title='" + img.title + "' " : "title='" + img.alt + "' " 
+   var imgStyle = "display:inline-block;" + img.style.cssText  
+   if (img.align == "left") imgStyle = "float:left;" + imgStyle 
+   if (img.align == "right") imgStyle = "float:right;" + imgStyle 
+   if (img.parentElement.href) imgStyle = "cursor:hand;" + imgStyle   
+   var strNewHTML = "<span " + imgID + imgClass + imgTitle 
+   + " style=\"" + "width:" + img.width + "px; height:" + img.height + "px;" + imgStyle + ";" 
+  + "filter:progid:DXImageTransform.Microsoft.AlphaImageLoader" 
+   + "(src=\'" + img.src + "\', sizingMethod='scale');\"></span>"  
+   img.outerHTML = strNewHTML 
+   i = i-1 
+  } 
+} 
+} 
+window.attachEvent("onload", correctPNG); 
+</script>  
+
+
+</head>
+<body>
+<center>
+<div id="pic"></div>
+    <div id="wrap">
+        <div id="header">
+            <embed src="./flash/banner.swf" width="776"height="165"></embed>
+        </div>
+
+    
+        <div id="container">
+
+            
+            <div id="nav">
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">快乐瞬间</a></li>
+                    <li><a href="#">快乐人物</a></li>
+                    <li><a href="#">快乐分享</a></li>
+                    <li><a href="#">快乐调味</a></li>
+                </ul>
+            </div>
+        
+
+
+           
+            <div id="first" class="common">
+                <ul>
+                    <li id="first_f">
+                        <div class="main">
+                            <div class="fcnt" id="ppt">
+                                <div class="mimg" id="mpc">
+                                    <div style="display:block"><a href="#nogo"><img src="images/0.jpg" alt="" /></a></div>
+                                    <div><a href="#nogo"><img src="images/1.jpg" alt="" /></a></div>
+                                    <div><a href="#nogo"><img src="images/2.jpg" alt="" /></a></div>
+                                    <div><a href="#nogo"><img src="images/3.jpg" alt="" /></a></div>
+                               </div>
+                               <dl style="display:block">
+        	                        <dt><a href="#nogo">快乐人生</a></dt>
+                                    <dd>人生有限，我们做的只不过是为了有生之年高兴罢了</dd>
+                               </dl>
+                               <dl>
+        	                        <dt><a href="#nogo">追求</a></dt>
+                                    <dd>站在低处，所以渴望更高</dd>
+                               </dl>
+                               <dl>
+        	                        <dt><a href="#nogo">低调人生</a></dt>
+                                    <dd>不管好事坏事，自己清楚就足够了，做人要低调</dd>
+                               </dl>
+                               <dl>
+        	                        <dt><a href="#nogo">路在何方</a></dt>
+                                    <dd>“你要去哪?""有哪可去”“不知道”“那就回去吧”</dd>
+                               </dl>
+                                 <div id="tri"></div>
+                                <ul>
+        	                        <li class="cur"><img src="images/s0.jpg" alt="" /></li>
+                                    <li><img src="images/s1.jpg" alt="" /></li>
+                                    <li><img src="images/s2.jpg" alt="" /></li>
+                                    <li><img src="images/s3.jpg" alt="" /></li>
+                               </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="first_c"></li>
+                    <li id="first_r">
+                        <h1><a href="#">快乐人物</a></h1>
+                         <hr >
+                        <ul>
+                            <li><a href="#">破晓晨钟</a></li><br>
+                            <li><a href="#">三毛</li><br>
+                            <li><a href="#">失意盎然</a></li><br>
+                            <li><a href="#">一脸坏笑</a></li><br>
+                            <li><a href="#">一苇</a></li>
+                        
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            
+            <div id="first_second" class="margin_common">
+            </div>
+
+         
+            <div id="second" class="common">
+                <h3>最新分享</h3>
+                <hr >
+                <ul>
+                    <li id="second_f">
+                        <p><a href="#">  今天的快乐心经</a><p>
+                        <p><a href="#">609的快乐哲学</a><p>
+                        <p><a href="#">一段不为人知的故事</a><p>
+                        <p><a href="#">爱从一个微笑开始</a><p>
+                        <p><a href="#">三毛流浪记</a><p>
+                        <p><a href="#">张飞流水账</a><p>          
+                    </li>
+                    <li id="second_r">
+                        <p><a href="#">舍P：毫无悬念的609</a><p>
+                        <p><a href="#">大一新生的“飞”主流</a><p>
+                        <p><a href="#">一只牛的思考</a><p>
+                        <p><a href="#">图书馆回忆录</a><p>
+                        <p><a href="#">郭德纲精品相声</a><p>
+                        <p><a href="#">福大的快乐弦律</a><p>
+                    </li>
+                </ul>
+            </div>
+          
+          <div id="second_third" class="margin_common">
+          </div>
+
+            
+            <div id="third" class="common">
+                <ul>
+                    <li id="third_f">
+                        <h2>快乐调味</h2>
+                         <hr >
+                         <p><a href="#"> 快乐=伟大</a><span>高尔基</span><p>
+                        <p><a href="#">快乐=朋友自远方来</a><span>孔子</span><p>
+                        <p><a href="#">快乐=知识+好奇</a><span>培根</span><p>
+                        <p><a href="#">快乐=家庭和睦</a><span>歌德</span><p>
+                        <p><a href="#"> 快乐=生活是美好的</a><span>列夫.托尔斯泰</span><p>
+                        <p><a href="#">快乐=我快乐+身边的人快乐</a><span>佚名</span><p>
+       
+                    </li>
+                    <li id="third_c"></li>
+                    <li id="third_r">
+                        <h2>每天一笑</h2>
+                         <hr >
+                         <p>&nbsp&nbsp等我有钱了，我就买一辆公交车，专门走公交专用车道，专门停在公交车站，等有人想上车了，我就说：对不起，这是私家车。</p>
+                    </li>
+                </ul>
+            </div>
+          
+          <div id="third_footer" class="margin_common">
+          </div>
+
+           
+            <div id="footer">
+                CopyRight@609_B爱情花园园丁
+            </div>
+            
+        </div>
+        
+    </div>
+</center>
+</body>
+</html>

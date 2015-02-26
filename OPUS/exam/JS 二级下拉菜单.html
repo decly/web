@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1 DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>导航菜单</title>
+
+<script language="javascript">
+    function showSubNav(id){
+        document.getElementById(id).style.display='block';
+    }
+    function hideSubNav(id){
+        document.getElementById(id).style.display='none';
+    }
+</script>
+
+<style type="text/css">
+    body{font-size:12px;}
+    ul,li{list-style-type:none;padding:0;margin:0;}
+    .main_nav{padding:2px;}
+    .main_nav a{display:block;line-height:28px;height:28px;padding-left:10px;overflow:hidden;}
+    .main_nav .navs{width:120px;height:28px;float:left;margin-right:2px;}
+    *html .main_nav .navs{overflow:hidden;} /* only for ie6 */
+    .main_nav .navs .nav_a{background:#DDDDDD;color:#000000;text-decoration:none;}
+    .main_nav .navs .nav_a:hover{background:#6a705e;}
+    .sub_nav{display:none;width:120px;position:relative;z-index:1000;opacity:0.9;filter:Alpha(opacity=90);}
+    .sub_nav li a {color:#000000;text-decoration:none;}
+    .sub_nav li a:link, .sub_nav li a:visited{background:#A0BED5;}
+    .sub_nav li a:hover{color:#FFFFFF;background:#0077BB;}
+    .clear{clear:both;height:1px;line-height:1px;font-size:1px;}
+</style>
+
+</head>
+<body>
+<ul class="main_nav">
+	<li class="navs" onmouseover="showSubNav('subNav_1');" onmouseout="hideSubNav('subNav_1');">
+    	 <a href="javascript:;" class="nav_a">我的个人信息</a>
+   		 <ul id="subNav_1" class="sub_nav">
+             <li><a href="#">姓名</a></li>
+             <li><a href="#">个人主页</a></li>
+             <li><a href="#">我的校内</a></li>
+       		 <li><a href="#">我的空间</a></li>
+			 <li><a href="#">我的空间</a></li>
+			 <li><a href="#">我的空间</a></li>
+			 <li><a href="#">我的空间</a></li>
+    	 </ul>
+	</li>
+	<li class="navs" onmouseover="showSubNav('subNav_2');" onmouseout="hideSubNav('subNav_2');">
+   	    <a href="javascript:;" class="nav_a">导航栏目二</a>
+    	<ul id="subNav_2" class="sub_nav">
+            <li><a href="#">子菜单二1</a></li>
+            <li><a href="#">子菜单二2</a></li>
+            <li><a href="#">子菜单二3</a></li>
+       	    <li><a href="#">子菜单二4</a></li>
+  	    </ul>
+	</li>
+	<li class="navs" onmouseover="showSubNav('subNav_3');" onmouseout="hideSubNav('subNav_3');">
+   	    <a href="javascript:;" class="nav_a">导航栏目二</a>
+    	<ul id="subNav_3" class="sub_nav">
+            <li><a href="#">子菜单二1</a></li>
+            <li><a href="#">子菜单二2</a></li>
+            <li><a href="#">子菜单二3</a></li>
+       	    <li><a href="#">子菜单二4</a></li>
+  	    </ul>
+	</li>
+	<li class="navs" onmouseover="showSubNav('subNav_4');" onmouseout="hideSubNav('subNav_4');">
+   	    <a href="javascript:;" class="nav_a">导航栏目二</a>
+    	<ul id="subNav_4" class="sub_nav">
+            <li><a href="#">子菜单二1</a></li>
+            <li><a href="#">子菜单二2</a></li>
+            <li><a href="#">子菜单二3</a></li>
+       	    <li><a href="#">子菜单二4</a></li>
+  	    </ul>
+	</li>
+	<li class="navs" onmouseover="showSubNav('subNav_5');" onmouseout="hideSubNav('subNav_5');">
+   	    <a href="javascript:;" class="nav_a">导航栏目二</a>
+    	<ul id="subNav_5" class="sub_nav">
+            <li><a href="#">子菜单二1</a></li>
+            <li><a href="#">子菜单二2</a></li>
+            <li><a href="#">子菜单二3</a></li>
+       	    <li><a href="#">子菜单二4</a></li>
+  	    </ul>
+	</li>
+	<li class="navs" onmouseover="showSubNav('subNav_6');" onmouseout="hideSubNav('subNav_6');">
+   	    <a href="javascript:;" class="nav_a">导航栏目二</a>
+    	<ul id="subNav_6" class="sub_nav">
+            <li><a href="#">子菜单二1</a></li>
+            <li><a href="#">子菜单二2</a></li>
+            <li><a href="#">子菜单二3</a></li>
+       	    <li><a href="#">子菜单二4</a></li>
+  	    </ul>
+	</li>
+	<li class="clear"></li><!-- 这个 li 标签必须有，用来清除浮动，这样下面的布局就不会被破坏 -->
+</ul>
+<div>你看我是绝对不会被挤走的，呵呵</div>
+
+
+
+</body>
+</html>
+

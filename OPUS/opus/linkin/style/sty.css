@@ -1,0 +1,116 @@
+body{background-color:#666666;}
+
+#zuida{width:1024px;
+       height:auto;
+       margin:0px auto;
+	   background-image:url(img/d2.jpg);}
+
+#toubu{width:1020px;
+	   height:200px;
+	   border:3px #000000 solid;}
+
+
+#ding{width:1020px;
+      height:40px;
+	  border:solid 3px #000000;
+	  margin:-5px 0px 5px 0px;
+	  }
+#nav{margin:-3px 0px 0px 0px; }
+#nav ul{list-style:none;}
+#nav ul li{display:inline;
+           padding:8px;
+		   text-align:center;
+		   font-weight:900;
+		   font-family:"ËÎÌå";}
+#nav a:link{font-size:20px;
+            color:#FFFFFF;
+			text-decoration:none;
+		    line-height:20px;}
+#nav a:hover{font-size:26px;
+             color:#CC0000;}
+#nav a:visited{font-size:20px;
+               color:#FFFF00;
+			   text-decoration:none;}
+#denglu{float:right;
+        margin-top:10px;
+		margin-right:5px;
+		font-size:12px;
+		color:#000;}
+
+
+
+
+#left{width:185px;
+	  height:auto;
+	  border:#FFFFFF 4px solid;
+      float:left;
+	  padding-bottom:10px;
+	  padding-top:10px;}
+#zhuanjijieshao{color:#FF0000;
+                font-size:26px;
+				font-weight:900;
+				padding-left:30px;
+				}
+#left a:hover img{border:5px #FF0000 solid;}
+.zhuanji{margin:12px;
+         border:#FFFFFF solid 3px;}
+.zhuanjiname{font-size:14px;
+             font-weight:800;
+			 color:#FFFFFF;
+			 line-height:0px;}		 
+
+
+#centre{width:500px;
+        margin:0px 8px;
+		padding-bottom:5px;
+        height:auto;
+		float:left;
+		border:#fff 3px solid;}
+.zhongtu{width:490px;height:400px;border:#FFFFFF 3px solid;}
+#jianjie{text-align:left;
+         padding:10px 10px 10px 10px;
+		 font-size:14px;
+		 color:#FFFFFF;}
+
+.zhaopian{width:100px;
+          height:100px;
+		  margin:7px 10px 0px 10px;
+		  border:#FFFFFF solid 2px;}
+#zhonggun{background:url(img/Ïà¿ò.jpg);
+          height:150px;
+		  margin-bottom:-5px;}
+#zhonggun ul li{display:inline;}
+
+
+
+
+#right{width:300px;
+       height:auto;
+	   float:left;
+	   border:#fff 3px solid;}
+#gundong{color:#FFFFFF;
+         font-size:20px;
+		 background:url(img/logo1.jpg);
+		 padding:10px;
+		 border:#FFFFFF 2px solid;}
+#you2{border:#fff 5px double;
+        height:260px;
+		width:285px;
+		margin-top:10px;}
+#you2 span{align:left;}
+#youjianjie{color:#FFFFFF;
+            font-size:13px;
+			margin-top:5px;
+			margin-bottom:5px;
+			padding:5px;
+            border:solid 1px #000000;}
+
+
+
+
+#bottom{clear:both;
+        width:1024px;
+        height:50px;
+		font-size:14px;
+		padding-top:20px;}
+#bottom a{color:#FFFFFF;}	   

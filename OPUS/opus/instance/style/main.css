@@ -1,0 +1,232 @@
+*{
+    margin:0;
+    padding:0;
+    }
+a{
+    text-decoration:none;
+    color:#000;
+    }
+body{
+   background:#fff;
+    text-align:center;
+    }
+#wrap{
+    background:#fefefe;
+    width:1024px;
+    _width:1024px;
+    height:auto;
+    margin:auto;
+    }
+#left{
+    float:left;
+    width:225px;
+    height:100%;
+    }
+#notice{
+    height:270px;
+    _height:280px;
+    background:url("img/notice_bg.jpg") repeat-x center top;
+    padding-top:10px;
+    }
+#notice span{
+    background:url("img/notice_title.jpg") no-repeat  15% 20%;
+    }
+.same span{
+    display:block;
+    height:45px;
+    font-size:15px;
+    line-height:40px;
+    font-family:"宋体";
+    }
+.span a{
+    color:#0F81EE;
+    }
+.same ul{
+    list-style:none;
+    padding-left:15px;
+    }
+ .same ul li{
+    background:url("img/list_bg.jpg") no-repeat left center;
+    padding-left:15px;
+    text-align:left;
+    }
+.same ul li a{
+    line-height:21px;
+    font-size:13px;
+    text-decoration:none;
+
+    }
+.same ul li a:hover{
+    color:blue;
+    }
+#left #download{
+    height:200px;
+     background:url("img/download_bg.jpg") repeat-x center top;
+    }
+#download span{
+    background:url("img/download_title.jpg") no-repeat  15% 23%;
+    display:block;
+    height:45px;
+    font-size:16px;
+    line-height:40px;
+    font-family:"宋体";
+    }
+#left #friend_link{
+    height:200px;
+    margin-top:6px;
+    background:url("img/download_bg.jpg") repeat-x center top;
+    }
+#friend_link span{
+    background:url("img/link.jpg") no-repeat  15% 30%;
+    display:block;
+    height:45px;
+    font-size:16px;
+    line-height:40px;
+    font-family:"宋体";
+    }
+#right{
+    height:100%;
+    width:795px;
+    float:left;
+    }
+#right #nav{
+    height:47px;
+    width:100%;
+    background:url("img/nav_bg.jpg") repeat-x center top;
+    }
+#banner{
+    margin:2px;
+    height:170px;
+    width:788px;
+    padding:1px;
+    border:2px solid #ddd;
+    }
+#nav ul{
+    list-style:none;
+    text-align:center;
+     padding-left:20px;
+    }
+#nav ul li{
+    letter-spacing: 4px;
+    line-height:47px;
+    display:inline;
+    float:left;
+    margin-left:25px;
+    }
+#nav li a{
+    color:#fff;
+    font-size:16px;
+    }
+#nav li a:hover{
+    color:#CFFF30;
+    font-size:16px;
+    text-decoration:none;
+    }
+#search{
+    height:28px;
+    width:99%;
+    border:1px solid #ccc;
+    background:#C4DEF7;
+    margin-top:12px;
+    text-align:left;
+    line-height:25px;
+    }
+#search form{
+    font-size:14px;
+    margin-left:15px;
+    line-height:28px;
+    }
+#search form input{
+   margin-left:3px;
+    }
+ #first{
+    width:100%;
+    height:210px;
+    margin-top:10px;
+    margin-left:5px;
+    }
+ #center_new{
+    float:left;
+    width:530px;
+    height:210px;
+    background:url("img/content_bg.jpg") no-repeat left top;
+
+    }
+#center_new span{
+    text-align:left;
+    padding-left:80px;
+    background:url("img/new_title.jpg") no-repeat  6% 30%;
+    }
+#center_new ul li#more {
+    float:right;
+    padding-right:40px;
+    background:none;
+    }
+#more a{
+    font-size:16px;
+    color:#F48E0B;
+    }
+#more a:hover{
+    color:red;
+    }
+#first_right{
+    float:right;
+    width:250px;
+    height:200px;
+    margin-left:3px;
+    }
+#lab_class{
+    float:left;
+    width:250px;
+    height:140px;
+     background:url("img/lab_bg.jpg") no-repeat left top;
+    }
+#lost{
+    height:60px;
+    padding-top:5px;
+    }
+#lost img{
+    border:0px;
+    }
+ #second{
+    width:100%;
+    height:210px;
+     margin-left:5px;
+    }
+#schedule{
+    float:right;
+    width:250px;
+    height:200px;
+    margin-left:3px;
+    background:url("img/lab_bg.jpg") no-repeat left top;
+    }
+#center_intro{
+    float:left;
+    width:530px;
+    height:210px;
+    background:url("img/content_bg.jpg") no-repeat left top;
+    }
+#center_intro span{
+    text-align:left;
+    padding-left:80px;
+    background:url("img/intro_title.jpg") no-repeat  4% 30%;
+    }
+#center_intro p{
+    font-size:13px;
+    padding: 0 20px;
+    padding-top:5px;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    text-align:left;
+    text-indent:1em;
+    }
+#wrap #footer{
+    float:left;
+    height:50px;
+    width:100%;
+    margin-top:8px;
+    padding-top:32px;
+    font-size:15px;
+    color:#999;
+    background:url("img/footer_bg.jpg") repeat-x  ;
+    }

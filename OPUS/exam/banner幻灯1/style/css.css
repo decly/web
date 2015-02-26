@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,ul{
+margin:0px;
+padding:0px;}
+/*
+
+懒人建站 www.51xuediannao.com 需要你的支持
+
+修改说明：
+1、宽度修改#container中的宽度；
+2、高度修改#slider中的高度
+3、其中内容任意书写。
+4、注意：背景和内容可任意更换其他元素属性需要慎重修改，如果你是高手可以任意修改，^_^
+
+*/
+#container {
+	MARGIN: 0px auto;
+	WIDTH: 1000px;
+	height:auto;
+	display:block;
+	overflow:hidden;
+	TEXT-ALIGN: left;
+}
+#slider {
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 0px; 
+	PADDING-BOTTOM: 0px; 
+	MARGIN: -1px 0px 0px; 
+	OVERFLOW: visible; 
+	PADDING-TOP: 1px; 
+	POSITION: relative; 
+	HEIGHT: 278px
+}
+#slider .sliderItem {
+	LEFT: 0px;
+	OVERFLOW: hidden;
+	WIDTH: 100%;
+	POSITION: absolute;
+	TOP: 1px! important;
+	HEIGHT: 278px;
+	background-image: url(../images/bg_slider_home.jpg);
+	background-repeat: repeat-x;
+	background-position: 0px -1px;
+}
+#slider .sliderItem IMG {
+	Z-INDEX: 100; 
+	RIGHT: 0px; 
+	FLOAT: right; 
+	POSITION: absolute; 
+	TOP: 0px;
+}
+/*幻灯片的导航*/
+#sliderNav {
+	width:100%;
+	height:50px;
+	OVERFLOW: hidden;
+	POSITION: relative;
+	background-image: url(../images/bj_01.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.sliderNav_left{
+	width:40%;
+	height:48px;
+	display:block;
+	float:left;
+	BACKGROUND: url(../images/bg_slidernav.png) no-repeat; 
+}
+#sliderNav UL {
+	PADDING: 0px;
+	FLOAT: left;
+	MARGIN: 3px 0px 0px 34px;
+	OVERFLOW: visible;
+	HEIGHT: 32px;
+	list-style-type: none;
+}
+#sliderNav UL LI {
+	FLOAT: left;
+		list-style-type: none;
+}
+#sliderNav UL LI A {
+	DISPLAY: block; 
+	MARGIN: 0px 5px 0px 0px; 
+	WIDTH: 37px; 
+	TEXT-INDENT: -9999px; 
+	HEIGHT: 32px;
+	overflow:hidden;
+}
+#sliderNav UL LI.one A {
+	BACKGROUND: url(../images/button_slidernav_1.png) no-repeat right top;
+}
+#sliderNav UL LI.one A.activeSlide {
+	BACKGROUND-POSITION: left 50%;
+}
+#sliderNav UL LI.one A:hover {
+	BACKGROUND-POSITION: left 50%;
+}
+#sliderNav UL LI.two A.activeSlide {
+	BACKGROUND-POSITION: left 50%;
+}
+#sliderNav UL LI.two A:hover {
+	BACKGROUND-POSITION: left 50%;
+}
+#sliderNav UL LI.three A.activeSlide {
+	BACKGROUND-POSITION: left 50%;
+}
+#sliderNav UL LI.three A:hover {
+	BACKGROUND-POSITION: left 50%;
+}
+#sliderNav UL LI.four A.activeSlide {
+	BACKGROUND-POSITION: left 50%;
+}
+#sliderNav UL LI.four A:hover {
+	BACKGROUND-POSITION: left 50%;
+}
+#sliderNav UL LI.two A {
+	BACKGROUND: url(../images/button_slidernav_2.png) no-repeat right top;
+}
+#sliderNav UL LI.three A {
+	BACKGROUND: url(../images/button_slidernav_3.png) no-repeat right top;
+}
+#sliderNav UL LI.four A {
+	BACKGROUND: url(../images/button_slidernav_4.png) no-repeat right top;
+}
+#sliderNav A.previous {
+	BACKGROUND: url(../images/button_slidernav.png) no-repeat left top; 
+	LEFT: 32px; 
+	FLOAT: left; 
+	MARGIN: 0px 30px 0px 0px; 
+	WIDTH: 37px; 
+	TEXT-INDENT: -9999px; 
+	POSITION: relative; 
+	TOP: 3px; 
+	HEIGHT: 32px;
+	overflow:hidden;
+}
+#sliderNav A.next {
+	BACKGROUND: url(../images/button_slidernav.png) no-repeat right top; 
+	LEFT: 24px; 
+	FLOAT: left; 
+	MARGIN: 0px 5px 0px 0px; 
+	WIDTH: 37px; 
+	TEXT-INDENT: -9999px; 
+	POSITION: relative; 
+	TOP: 3px; 
+	HEIGHT: 32px;
+	overflow:hidden;
+}
+

@@ -1,0 +1,115 @@
+*{margin:0;
+  padding:0;}
+body{background-color:#333333;}
+h3{background:#666666;
+   border-right:1px solid #FFFFFF;
+   border-bottom:1px solid #FFFFFF;
+   font-weight:900;
+   font-size:18px;
+   margin-bottom:10px;
+   color:#FFFF00;
+   display:block;
+   height:28px;
+   padding-top:5px;}
+
+h4{color:#000099;
+   background:url(img/little.png) no-repeat left;
+   padding-left:25px;}
+
+
+
+img.image{width:25px;
+    height:25px;
+	margin:0 5px;}
+img.image1{width:35px;
+           height:25px;
+		   margin:0 5px;}
+
+
+
+#frame{margin:0 auto;
+       width:1024px;
+	   height:auto;
+	   color:#000;
+	   font-size:14px;
+	   line-height:30px;
+	   }
+
+#all{width:85%;border:0px solid #fff;
+     background-color:#62615f;
+     margin:0 auto; }
+#lefttop{background:url(img/lt.png) no-repeat left top;}
+#righttop{background:url(img/rt.png) no-repeat right top;}
+#leftbottom{background:url(img/lb.png)  no-repeat left bottom;}
+#rightbottom{background:url(img/rb.png) no-repeat right bottom;padding:30px;}
+#bor{padding:30px;background:#ada9a8;border-right:3px #333333 solid;border-bottom:3px #333333 solid;}
+
+
+#pictures{height:140px;
+          padding:5px;
+          margin:0 auto;
+		  width:760px;
+		  }
+#pic1{float:left;
+      display:block;
+	  margin-left:10px;
+	  margin-top:22px;
+	  width:240px;
+	  height:110px;
+	  background:url(img/jianjie.png);}
+#pic1:hover{float:left;
+      display:block;
+	  margin-left:10px;
+	  margin-top:22px;
+	  width:240px;
+	  height:110px;
+	  background:url(img/jianjie_hover.png);}
+#pic2{float:left;
+      display:block;
+	  margin-left:10px;
+	  margin-top:6px;
+	  width:240px;
+	  height:126px;
+	  background:url(img/wenhua.png);}
+#pic2:hover{float:left;
+      display:block;
+	  margin-left:10px;
+	  margin-top:6px;
+	  width:240px;
+	  height:126px;
+	  background:url(img/wenhua_hover.png);}
+#pic3{float:left;
+      display:block;
+	  margin-left:10px;
+	  width:240px;
+	  height:132px;
+	  background:url(img/linian.png);}
+#pic3:hover{float:left;
+      display:block;
+	  margin-left:10px;
+	  width:240px;
+	  height:132px;
+	  background:url(img/linian_hover.png);}
+
+
+
+#top{width:1024px;
+     height:200px;
+     background:url(img/top.jpg) no-repeat top left;}
+
+#intro{background:#c9c3c3;
+       padding:15px;
+	   margin-top:20px;
+	   padding-top:20px;}
+
+#cultrue{background:#c9c3c3;margin-top:20px;
+         padding:15px;}
+#beliefs{background:#c9c3c3;margin-top:20px;
+         padding:15px;}
+
+
+#foot img{width:100%;
+          margin:30px auto;}
+		   
+		   
+		   

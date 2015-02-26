@@ -1,0 +1,63 @@
+Html常用标签：
+布局常用：
+<div id=" "></div>
+<span id=" "></span>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+文本常用：
+<p></p>
+<a href="#"></a>
+<img src=" " alt=" "/>链接图片
+<embed src="" width=" "height=" "></embed>连接多媒体
+
+
+css常用：
+
+修饰div：
+width
+height
+margin
+padding
+background
+float
+border
+
+修饰a：
+text-decoration
+color
+font-size
+background
+
+修饰ul：
+list-style
+text-align
+
+修饰li：
+display
+line-height
+float
+margin
+padding
+text-align
+
+修饰p：
+font-family
+font-weight
+font-size
+color
+letter-spacing
+text-align
+line-height
+text-indent
+
+修饰img
+border
+width
+height
+float
+clear
+
+
