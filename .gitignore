@@ -1,2 +1,4 @@
 project/
 code/
+*.chw
+debug.log
